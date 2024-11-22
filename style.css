@@ -1,0 +1,61 @@
+.homeimg {
+    background-image: url("./img/homeimg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.design {
+    background-color: #cbdeec;
+    border: 1px solid #cbdeec;
+}
+
+.price-two {
+    background: rgb(15, 15, 249);
+    background: linear-gradient(130deg, rgba(15, 15, 249, 1) 74%, rgba(255, 106, 0, 1) 74%);
+}
+
+.bgcol{
+    background-color:#d0d5d6;
+}
+
+.blue{
+    background-color:#bbd6e6;
+}
+
+.roundedradius{
+    border-start-start-radius: 70px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 20px;
+}
+
+.footerborder{
+    border-right: 1px solid white;
+}
+
+.cardposition{
+    left: 5%;
+    z-index: 1;
+}
+
+
+@media screen and (max-width:760px){
+    .footertext{
+        text-align: center;
+    }
+
+    .footer-icon{
+        justify-content: center;
+    }
+
+    .cardposition{
+        left: 0%; 
+    }
+}
+
+@media screen and (max-width:1000px){
+    .footerborder{
+        border-right: 1px solid #212529;
+    }
+}

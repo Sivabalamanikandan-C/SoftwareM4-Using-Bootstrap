@@ -1,0 +1,863 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap ex</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Navbar Starts -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <div class="d-flex align-content-center">
+                <img src="./img/logo.png" alt="logo" style="height: 2.5rem;">
+                <a class="navbar-brand" href="#">Software</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex gap-4" role="search">
+                    <a href="#"><i class="fa-brands fa-facebook-f text-black bg-white p-2 rounded-5"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter text-black bg-white p-2 rounded-5"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram text-black bg-white p-2 rounded-5"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <!-- Home page Starts -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 homeimg pt-5">
+                <div class="container my-5">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <p class="fw-bold mb-3">Softwre Company</p>
+                            <h1 class="mb-3">Mobile App</h1>
+
+                            <div>
+                                <p class="col-12 col-sm-12 col-md-12 col-lg-6 mb-3">Lorem ipsum dolor sit amet
+                                    consectetur
+                                    adipisicing elit. Unde non assumenda fugiat
+                                    maiores ipsam vero, dignissimos placeat animi excepturi! Veniam?
+                                </p>
+
+                                <div class="d-flex justify-content-start gap-2 pt-3 pb-5">
+                                    <button class="btn d-inline-flex align-items-center px-4 text-dark" type="button"
+                                        style="background-color:#e9d4c5;">
+                                        Get Started
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Home page Ends -->
+
+    <hr>
+
+    <!-- Task one Starts -->
+    <div class="container-fluid" style="background-color: #EFEFEF;">
+        <div class="container px-4 py-5">
+            <div class="row row-cols-1 row-cols-md-2 align-items-stretch g-0">
+                <div class="col col-sm-12 col-md-6 col-lg-5 position-relative cardposition p-md-4">
+                    <div class="card rounded-4 h-100 border-0">
+                        <div class="d-flex flex-column h-100 shadow-sm">
+                            <img src="./img/features1.jpg" alt="img" class="img-fluid h-100 rounded-4 shadow-lg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-sm-12 col-md-6 col-lg-7 d-flex flex-column mt-5 mt-md-0 ms-0">
+                    <div class="card h-100 ps-md-5 border">
+                        <div class="h-100 d-flex flex-column ps-md-3 pt-md-4 pb-md-5 pe-lg-5 p-4">
+                            <p class="mt-1 mb-4">HTML,CSS,JS,PYTON</p>
+                            <h1 class="mb-4">What We Do</h1>
+                            <p class="mb-4">Paragraph of text beneath the heading to explain the heading. We'll add onto
+                                just keep
+                                going until we run out of words.
+                            </p>
+
+                            <div class="mb-1 d-flex align-items-baseline gap-2">
+                                <i class="fa-solid fa-check"></i>
+                                <p class="fw-bold">App Design & Development</p>
+                            </div>
+
+                            <div class="mb-1 d-flex align-items-baseline gap-2">
+                                <i class="fa-solid fa-check"></i>
+                                <p class="fw-bold">Web Development & CMS</p>
+                            </div>
+
+                            <div class="mb-1 d-flex align-items-baseline gap-2">
+                                <i class="fa-solid fa-check"></i>
+                                <p class="fw-bold">Sass & Pos Software Design</p>
+                            </div>
+
+                            <div class="mt-5">
+                                <button type="button" class="btn btn-primary px-5 py-3 text-black border-0 fw-bold" style="background-color: #EFEFEF;">Free Consultant</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Task one Ends -->
+
+    <hr>
+
+    <!-- Task Two Starts -->
+    <div class="container px-4 py-5" id="featured-3">
+        <p class="text-center">Intregrations</p>
+        <h2 class="pb-2 text-center">Mobile app intregrations</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-4 justify-content-between">
+
+            <div class="feature col border border-2 p-3 pb-2">
+
+                <div class="d-flex align-items-baseline gap-2 mb-3">
+                    <i class="fa-solid fa-palette design fs-1 rounded-5 p-2"></i>
+                    <h2>Design</h2>
+                </div>
+
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another.</p>
+                <a href="#" class="icon-link">
+                    Read More
+                </a>
+            </div>
+
+            <div class="feature col border border-2 p-3 pb-2">
+
+                <div class="d-flex align-items-baseline gap-2 mb-3">
+                    <i class="fa-solid fa-code design fs-1 rounded-5 p-2"></i>
+                    <h2>Code</h2>
+                </div>
+
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another.</p>
+                <a href="#" class="icon-link">
+                    Read More
+                </a>
+            </div>
+
+            <div class="feature col border border-2 p-3 pb-2">
+
+                <div class="d-flex align-items-baseline gap-2 mb-3">
+                    <i class="fa-solid fa-code design fs-1 rounded-5 p-2"></i>
+                    <h2>Code</h2>
+                </div>
+
+                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another.</p>
+                <a href="#" class="icon-link">
+                    Read More
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Task Two Ends -->
+
+    <hr>
+
+    <!-- Price plans Starts -->
+    <div class="container">
+        <p class="text-center mb-4">price and plans</p>
+        <h1 class="text-center mb-5">Price and plans</h1>
+        <div class="row row-cols-sm-2 row-cols-lg-3 mb-3 justify-content-between px-2">
+
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-lg p-5 border-2 pricecard-1" style="background-color:#e0e3e8;">
+
+                    <div class="card-body">
+                        <p class="fs-4 mb-0">Basic</p>
+                        <h1 class="card-title pricing-card-title mt-1 mb-3 display-3 fw-bolder">$10.00</h1>
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p> Curabitur id libero</p>
+                        </div>
+
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p>Etiam cursus ex.</p>
+                        </div>
+
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p>Etiam auctor,erat.</p>
+                        </div>
+
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p>Eleifend arcu. nulla.</p>
+                        </div>
+
+                        <div class="d-flex justify-content-center align-content-center">
+                            <button type="button" class="btn px-4 text-info mt-3" style="background-color:#c5dfe9;">Get
+                                Started</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-lg p-5 border-2 pricecard-1 price-two">
+
+                    <div class="card-body">
+                        <p class="fs-4 mb-0">Advanced</p>
+                        <h1 class="card-title pricing-card-title mt-1 mb-3 display-3 fw-bolder">$299.00</h1>
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p> Curabitur id libero</p>
+                        </div>
+
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p>Etiam cursus ex.</p>
+                        </div>
+
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p>Etiam auctor,erat.</p>
+                        </div>
+
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p>Eleifend arcu. nulla.</p>
+                        </div>
+
+                        <div class="d-flex justify-content-center align-content-center">
+                            <button type="button" class="btn px-4 text-info mt-3 bg-white"
+                                style="background-color:#c5dfe9;">Get
+                                Started</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-lg p-5 border-2 pricecard-1" style="background-color:#e0e3e8;">
+
+                    <div class="">
+                        <p class="fs-4 mb-0">Team</p>
+                        <h1 class="card-title pricing-card-title mt-1 mb-3 display-3 fw-bolder">$99.00</h1>
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p> Curabitur id libero</p>
+                        </div>
+
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p>Etiam cursus ex.</p>
+                        </div>
+
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p>Etiam auctor,erat.</p>
+                        </div>
+
+                        <div class="d-flex align-content-center align-items-baseline gap-1">
+                            <i class="fa-solid fa-check mx-2"></i>
+                            <p>Eleifend arcu. nulla.</p>
+                        </div>
+
+                        <div class="d-flex justify-content-center align-content-center">
+                            <button type="button" class="btn px-4 text-info mt-3" style="background-color:#c5dfe9;">Get
+                                Started</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Price Plans Ends -->
+
+    <hr>
+
+    <!-- Task Three Starts -->
+    <main style="background-color:#c5dfe9;">
+        <div class="container px-4 py-4" id="hanging-icons">
+            <div class="row g-4 py-5 row-cols-1 row-cols-sm-3">
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="col d-flex align-items-start gap-2 justify-content-center ms-2">
+                        <i class="fa-solid fa-arrow-up p-2 rounded-5 text-white bg-warning fs-3"></i>
+
+                        <div>
+                            <h3 class="fs-2">5.37%</h3>
+                            <p>Monthly income.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="col d-flex align-items-start gap-2 justify-content-center pe-4">
+                        <i class="fa-solid fa-arrow-up p-2 rounded-5 text-white bg-warning fs-3"></i>
+
+                        <div>
+                            <h3 class="fs-2">8.93%</h3>
+                            <p>New clients.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="col d-flex align-items-start gap-2 justify-content-center pe-3 ms-1">
+                        <i class="fa-solid fa-arrow-up p-2 rounded-5 text-white bg-warning fs-3"></i>
+
+                        <div>
+                            <h3 class="fs-2">4.25%</h3>
+                            <p>Good reviews.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Task Three Ends -->
+
+    <hr>
+
+    <!-- FAQ Starts -->
+    <div class="container-fluid px-3 py-5" style="background-color:#dad8d8;">
+        <div class="card mb-3 border-0 mx-auto" style="max-width: 1100px; background-color:#dad8d8;">
+            <div class="row g-0">
+                <div class="col-md-6 shadow-lg rounded-4">
+                    <img src="./img/ak.jpeg" class="img-fluid rounded-4" alt="...">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body px-0 py-md-2 px-md-4 py-lg-1">
+                        <p class="card-title">FAQ</p>
+                        <h1 class="card-title mt-2 mt-lg-5 mb-3">Get every answers From here.</h1>
+
+                        <div class="mt-3 mt-lg-5">
+                            <div class="bg-white d-flex align-items-baseline mb-2 pt-2">
+                                <i class="fa-solid fa-plus mx-3"></i>
+                                <p>This is default success border</p>
+                            </div>
+
+                            <div class="bg-white d-flex align-items-baseline mb-2 pt-2">
+                                <i class="fa-solid fa-plus mx-3"></i>
+                                <p>This is 50% opacity success border</p>
+                            </div>
+
+                            <div class="bg-white d-flex align-items-baseline mb-2 pt-2">
+                                <i class="fa-solid fa-plus mx-3"></i>
+                                <p>This is default success border</p>
+                            </div>
+
+                            <div class="bg-white d-flex align-items-baseline pt-2">
+                                <i class="fa-solid fa-plus mx-3"></i>
+                                <p>This is 50% opacity success border</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ Ends -->
+
+    <hr>
+
+    <!-- Our Team starts -->
+    <div class="container-fluid px-5 py-5 mb-5" style="background-color:#d0d5d6;">
+        <div class="container">
+            <p class="text-center">Experts</p>
+            <h1 class="text-center mb-5">Our Team Members</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5 gap-sm-0">
+                <div class="col">
+                    <div class="card h-100 w-100 mx-auto rounded-4">
+                        <img src="./img/team1.jpg" class="card-img-top rounded-circle px-5 py-4" alt="...">
+                        <div class="card-body">
+
+                            <h3 class="card-title text-center">John Smith</h3>
+                            <p class="card-text text-center">programmer</p>
+
+                            <div class="d-flex justify-content-center align-items-center gap-3">
+                                <i class="fa-brands fa-square-facebook rounded-5 p-2 bgcol"></i>
+                                <i class="fa-brands fa-square-twitter rounded-5 p-2 bgcol"></i>
+                                <i class="fa-brands fa-square-instagram rounded-5 p-2 bgcol"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 w-100 mx-auto rounded-4">
+                        <img src="./img/team2.jpg" class="card-img-top rounded-circle px-5 py-4" alt="...">
+                        <div class="card-body">
+
+                            <h3 class="card-title text-center">Sarah</h3>
+                            <p class="card-text text-center">Manager</p>
+
+                            <div class="d-flex justify-content-center align-items-center gap-3">
+                                <i class="fa-brands fa-square-facebook rounded-5 p-2 bgcol"></i>
+                                <i class="fa-brands fa-square-twitter rounded-5 p-2 bgcol"></i>
+                                <i class="fa-brands fa-square-instagram rounded-5 p-2 bgcol"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 w-100 mx-auto rounded-4">
+                        <img src="./img/team3.jpg" class="card-img-top rounded-circle px-5 py-4" alt="...">
+                        <div class="card-body">
+
+                            <h3 class="card-title text-center">Adam Swift</h3>
+                            <p class="card-text text-center">Analyst</p>
+
+                            <div class="d-flex justify-content-center align-items-center gap-3">
+                                <i class="fa-brands fa-square-facebook rounded-5 p-2 bgcol"></i>
+                                <i class="fa-brands fa-square-twitter rounded-5 p-2 bgcol"></i>
+                                <i class="fa-brands fa-square-instagram rounded-5 p-2 bgcol"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 w-100 mx-auto rounded-4">
+                        <img src="./img/team4.jpg" class="card-img-top rounded-circle px-5 py-4" alt="...">
+                        <div class="card-body">
+
+                            <h3 class="card-title text-center">Helen smith</h3>
+                            <p class="card-text text-center">Designer</p>
+
+                            <div class="d-flex justify-content-center align-items-center gap-3 mt-3 mb-3">
+                                <i class="fa-brands fa-square-facebook rounded-5 p-2 bgcol"></i>
+                                <i class="fa-brands fa-square-twitter rounded-5 p-2 bgcol"></i>
+                                <i class="fa-brands fa-square-instagram rounded-5 p-2 bgcol"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Team Ends -->
+
+    <hr>
+
+    <!-- About Us Starts -->
+    <div class="container px-4 py-5">
+        <div class="row d-flex flex-row justify-content-center align-items-center">
+            <div class="col-12 col-md-6 mb-4">
+                <p>About us</p>
+                <h1 class="fw-bold">Choose Whats Matters To Your Software</h1>
+                <p class="mt-lg-4">Paragraph of text beneath the heading to explain the heading. We'll add just keep
+                    going until we run
+                    out of words.</p>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <p class="mb-0 mt-1">User Research</p>
+                <div class="d-flex justify-content-end">
+                    <p class="float mb-0">92%</p>
+                </div>
+
+                <div class="progress">
+
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 92%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">92%</div>
+                </div>
+
+                <p class="mb-0 mt-1">Ux Focus</p>
+                <div class="d-flex justify-content-end">
+                    <p class="float mb-0">71%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 75%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+
+                <p class="mb-0 mt-1">Client Support</p>
+                <div class="d-flex justify-content-end">
+                    <p class="float mb-0">51%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 53%;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">53%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container px-4">
+        <div class="row g-4">
+            <div class="col-12 col-lg-6 d-flex flex-column">
+                <img src="./img/images.jpeg" alt="laptop" class="img-fluid rounded-4 shadow-lg">
+            </div>
+
+            <div class="col-12 col-lg-6 d-flex flex-column">
+                <img src="./img/uk.jpeg" alt="phone" class="img-fluid rounded-4 shadow-lg">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container px-4 py-4">
+        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-1">
+            <div class="col-12 col-md-12 col-lg-12">
+                <div class="card d-flex flex-column rounded-4">
+                    <img src="./img/background3 (1).jpg" alt="image" class="img-fluid rounded-4 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us Ends -->
+
+    <hr>
+
+    <!-- Our Clients Starts -->
+    <div class="container-fluid px-5 py-5 bg-dark mb-4">
+        <h2 class="text-center text-white mb-4">Our Clients</h2>
+
+        <div class="container px-3 py-3 bg bg-white">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 p-3 g-3">
+                <div class="col col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                    <img src="./img/1.png" alt="" class="img-fluid w-75 clientimg">
+                </div>
+
+                <div class="col col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                    <img src="./img/2.png" alt="" class="img-fluid w-75 clientimg">
+                </div>
+
+                <div class="col col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                    <img src="./img/3.png" alt="" class="img-fluid w-75 clientimg">
+                </div>
+
+                <div class="col col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                    <img src="./img/65.png" alt="" class="img-fluid w-75 clientimg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Clients Ends -->
+
+    <hr>
+
+    <!-- Form Task Starts -->
+    <div class="container-fluid blue mb-5">
+        <div class="row row-cols-1 row-cols-lg-2 d-flex justify-content-center align-items-center">
+            <div class="col p-0">
+                <div class="d-flex flex-column justify-content-start g-0">
+                    <img src="./img/b4.jpg" alt="image" class="img-fluid shadow-lg">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="d-flex flex-column justify-content-center p-3 mt-2">
+                    <div class="px-4">
+                        <p>Get Newsletter</p>
+                        <h1 class="mt-4">Get Every Weekly Update feeds</h1>
+                        <input type="text" placeholder="Enter Full Name" class="form-control col-12 mt-3">
+                        <input type="email" placeholder="Enter Email Address" class="form-control col-12 mt-3">
+
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="bg-dark text-white mt-4 p-1">Subcribe Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Form Task Ends -->
+
+    <hr>
+
+    <!-- Feedback Starts -->
+    <div class="container px-4 py-4">
+        <p>Testimonials</p>
+        <h1 class="mb-3">Our Clients Feedbacks</h1>
+
+        <div class="row row-cols-1 row-cols-lg-3 g-4">
+
+            <div class="col">
+                <div class="card rounded-4 shadow-lg position-relative">
+                    <div class="p-5 pb-0">
+                        <i class="fa-solid fa-quote-right text-dark fs-3 mb-3"></i>
+
+                        <p class="fs-3 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus
+                            exercitationem odit dolores praesentium, facer</nam>
+                        </p>
+
+                        <h3>John Smith</h3>
+                        <p>Programmer</p>
+
+
+                        <img src="./img/team1.jpg" alt="img"
+                            class="w-25 position-absolute bottom-0 end-0 roundedradius">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card rounded-4 shadow-lg">
+                    <div class="p-5 pb-0">
+                        <i class="fa-solid fa-quote-right text-dark fs-3 mb-3"></i>
+
+                        <p class="fs-3 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus
+                            exercitationem odit dolores praesentium, facer</nam>
+                        </p>
+
+                        <h3>Sarah Palmer</h3>
+                        <p>Manager</p>
+
+
+                        <img src="./img/team2.jpg" alt="img"
+                            class="w-25 position-absolute bottom-0 end-0 roundedradius">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card rounded-4 shadow-lg">
+                    <div class="p-5 pb-0">
+                        <i class="fa-solid fa-quote-right text-dark fs-3 mb-3"></i>
+
+                        <p class="fs-3 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus
+                            exercitationem odit dolores praesentium, facer</nam>
+                        </p>
+
+                        <h3>Adam Swift</h3>
+                        <p>Designer</p>
+
+
+                        <img src="./img/team3.jpg" alt="img"
+                            class="w-25 position-absolute bottom-0 end-0 roundedradius ro">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feedback Ends -->
+
+    <hr>
+
+    <!-- Map Starts -->
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15721.400938019373!2d78.12981154448926!3d9.90476004313163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c513d10dc413%3A0x5e336a67a852f969!2sAnuppanadi%2C%20Tamil%20Nadu%20625009!5e0!3m2!1sen!2sin!4v1727448725235!5m2!1sen!2sin"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="col-12 col-sm-12 col-md-12 col-lg-12"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Map Ends -->
+
+    <hr>
+
+    <!-- Footer One Starts -->
+    <!-- <div class="container-fluid bg-dark">
+        <div class="container py-5">
+            <div class="row row-cols-1 row-cols-lg-4">
+                <div class="col d-flex">
+                    <div class="col-6">
+                        <h3 class="text-white">Main Link</h3>
+                        <div class="card bg-dark border-0">
+
+                            <div>
+                                <ul class="nav d-flex flex-column">
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Home</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Features</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Pricing</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">FAQs</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">About</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">FAQs</a></li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">About</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div
+                        class="card bg-dark border-0 rounded-0 border-0 border-end border-white rounded-0 border-2 pb-5">
+                        <div>
+                            <ul class="nav d-flex flex-column ps-5 pt-5 pb-5">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Home</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Features</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Pricing</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">FAQs</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="card bg-dark ps-4 pb-4 border-0">
+                        <h3 class="text-white">Get In Touch</h3>
+                        <div>
+                            <p class="text-white m-0 mb-2">New Address</p>
+                            <p class="text-white m-0 mb-2">14/A, New home town nyc</p>
+                            <p class="text-white m-0 mb-2">Head Quatar</p>
+                            <p class="text-white m-0 mb-2">71,Qlex Tower, Onthon,UK</p>
+                        </div>
+
+
+                        <button type="button" class="btn btn-warning mt-5 col-7 footerbtn">Contact</button>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="card bg-dark">
+                        <h3 class="text-white">Main Link</h3>
+                        <div>
+                            <ul class="nav d-flex flex-column">
+                                <li class="nav-item"><a href="#" class="nav-link text-white ps-0">Home</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link text-white ps-0">Features</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link text-white ps-0">Pricing</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link text-white ps-0">FAQs</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link text-white ps-0">About</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link text-white ps-0">FAQs</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link text-white ps-0">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Footer One Ends -->
+
+    <!-- Footer Two Starts -->
+    <div class="container-fluid bg-dark">
+        <div class="container py-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 py-3 px-3">
+                <div class="d-flex flex-column flex-lg-row justify-content-around footerborder">
+                    <div class="col-md-6 col-lg-6 ps-md-5 footertext">
+                        <h3 class="text-white mb-2">Main Link</h3>
+                        <ul class="nav d-flex flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">About Us</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Services</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Pricing</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Portfolio</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Contacts</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Help</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 ps-md-5 pt-5 mb-3 footertext">
+                        <ul class="nav d-flex flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Reviews</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Best Products</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Categories</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white p-0">Brands</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-11 col-md-5 col-lg-4 bg-dark ps-5 pb-4 mt-3 mt-md-0 footerborder footertext">
+                    <div class="px-2 px-md-0">
+                        <div class="px-lg-5">
+                            <h3 class="text-white">Get In Touch</h3>
+                            <div>
+                                <p class="text-white m-0 mb-2">New Address</p>
+                                <p class="text-white m-0 mb-2">14/A, New home town nyc</p>
+                                <p class="text-white m-0 mb-2">Head Quatar</p>
+                                <p class="text-white m-0 mb-2">71,Qlex Tower, Onthon,UK</p>
+                            </div>
+
+                            <button type="button" class="btn mt-4 col-7" style="background-color: #F7D9C4;">Contact</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 bg-dark border-0 ps-md-5 footertext">
+                    <div class="ps-md-2">
+                        <h3 class="text-white">About</h3>
+                        <div>
+                            <p class="text-white pb-2 pe-3">Mobirise is a free offline app for Windows and Mac to easily
+                                create
+                                small/medium websites, landing pages, online resumes and portfolios.
+                            </p>
+
+                            <h4 class="text-white mb-3">Social Contact</h4>
+
+                            <div class="d-flex gap-3 footer-icon">
+                                <i class="fa-brands fa-facebook p-2 border border-secondary rounded text-secondary"></i>
+                                <i
+                                    class="fa-brands fa-square-twitter p-2 border border-secondary rounded text-secondary"></i>
+                                <i
+                                    class="fa-brands fa-instagram p-2 border border-secondary rounded text-secondary"></i>
+                                <i class="fa-brands fa-behance p-2 border border-secondary rounded text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Two Ends -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
